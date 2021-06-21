@@ -1,4 +1,4 @@
-# Geremiam Python2
+# geremiam Python2
 
 ## How do I install these formulae?
 

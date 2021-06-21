@@ -6,6 +6,11 @@ class PythonAT2717 < Formula
   revision 1
   head "https://github.com/python/cpython.git", :branch => "2.7"
 
+  bottle do
+    rebuild 1
+    sha256 mojave: "ed05af68ad0a83c9ca4ca54a742a61bd1716eb4b0de3bf7405b55a50eb8e287f"
+  end
+
   # setuptools remembers the build flags python is built with and uses them to
   # build packages later. Xcode-only systems need different flags.
   pour_bottle? do
